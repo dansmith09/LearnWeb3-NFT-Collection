@@ -10,7 +10,17 @@ export default function handler(req, res) {
     // More info can be found here: https://docs.opensea.io/docs/metadata-standards
     res.status(200).json({
       name: "Crypto Dev #" + tokenId,
-      description: "Crypto Dev is a collection of developers in crypto",
+      description: "Crypto Devs is a collection of developers in crypto",
       image: image_url + tokenId + ".svg",
+      attributes: [
+        {
+          "trait_type": "Chain of Preference", 
+          "value": "Ethereum"
+        }, 
+        {
+          "trait_type": "Deployed By", 
+          "value": "BigSmith.eth"
+        }, 
+      ]
     });
   }
