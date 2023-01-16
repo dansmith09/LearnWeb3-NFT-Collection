@@ -12,7 +12,7 @@ export default function handler(req, res) {
       name: "NFT GAME TEST #" + tokenId,
       annimation_url: "https://arweave.net/p9IgwICVOS8F8FdBfZdZI3LoUZ8FngbZPutqP4J1a24",
       description: "Crypto Devs is a collection of developers in crypto",
-      image: image_url + tokenId + ".svg",
+      image: "https://zewiiits5b6m6pgnnzz574ghdvz2saaqjuxw3swc3r73nicxl56q.arweave.net/ySyEInLofM88zW5z3_DHHXOpABBNL23Kwtx_tqBXX30",
       attributes: [
         {
           "trait_type": "Chain of Preference", 
