@@ -9,7 +9,8 @@ export default function handler(req, res) {
     // when sending back the response from the api
     // More info can be found here: https://docs.opensea.io/docs/metadata-standards
     res.status(200).json({
-      name: "Crypto Dev #" + tokenId,
+      name: "NFT GAME TEST #" + tokenId,
+      annimation_url: "https://arweave.net/p9IgwICVOS8F8FdBfZdZI3LoUZ8FngbZPutqP4J1a24",
       description: "Crypto Devs is a collection of developers in crypto",
       image: image_url + tokenId + ".svg",
       attributes: [
@@ -24,3 +25,11 @@ export default function handler(req, res) {
       ]
     });
   }
+
+  // {
+//     "description": "If only to see the tree for the forest",
+//     "external_url": "https://luke.gallery",
+//     "image": "https://arweave.net/7u5wKj0j_WlzmhO2knmoQIlT9c0Ggai1z_lDfuPbA6k",
+//     "name": "Luke Cassady-Dorion",
+//     "animation_url": "https://arweave.net/ya16e5Ur1enjUv7kdY8sMlBEAn_7QM4cRMo0HqRmq_U"
+// }
