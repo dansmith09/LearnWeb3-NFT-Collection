@@ -26,6 +26,10 @@ export default function handler(req, res) {
           "trait_type": "Deployed By", 
           "value": "BigSmith.eth"
         }, 
+        {
+          "trait_type": "Rarity", 
+          "value": "Super Mega Rare"
+        }, 
       ]
     });
   }
