@@ -11,7 +11,7 @@ export default function handler(req, res) {
     res.status(200).json({
       name: "NFT GAME TEST #" + tokenId,
       description: "Crypto Devs is a collection of developers in crypto",
-      // image: "https://zewiiits5b6m6pgnnzz574ghdvz2saaqjuxw3swc3r73nicxl56q.arweave.net/ySyEInLofM88zW5z3_DHHXOpABBNL23Kwtx_tqBXX30",
+      image: "https://mrvigfhnxacdnwvj3iyex74p6ghbgz76ifh2ga6nwxbltrk2ys5a.arweave.net/ZGqDFO24BDbaqdowS_-P8Y4TZ_5BT6MDzbXCucVaxLo",
       animation_url: "https://arweave.net/p9IgwICVOS8F8FdBfZdZI3LoUZ8FngbZPutqP4J1a24",
       attributes: [
         {
